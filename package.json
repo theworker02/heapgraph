@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/heapgraph",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Heap config/graph key checks for twelve-factor services.",
+  "bin": {
+    "heapgraph": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/heapgraph.git"
+  },
+  "homepage": "https://theworker02.github.io/heapgraph/",
+  "keywords": [
+    "heap",
+    "graph",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
